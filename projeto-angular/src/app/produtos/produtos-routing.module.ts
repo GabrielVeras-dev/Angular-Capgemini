@@ -3,10 +3,9 @@ import { RouterModule, Routes } from '@angular/router';
 import { DetalhesProdutoComponent } from './detalhes-produto/detalhes-produto.component';
 import { ProdutosComponent } from './produtos.component';
 
-const routes: Routes = [{ path: '', component: ProdutosComponent },
-{ path: ':id', component: DetalhesProdutoComponent},
-
-
+const routes: Routes = [
+  { path: '', component: ProdutosComponent },
+  { path: ':id', component: DetalhesProdutoComponent }
 ];
 
 @NgModule({

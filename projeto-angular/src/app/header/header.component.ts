@@ -10,8 +10,6 @@ export class HeaderComponent implements OnInit {
 
   constructor(
     public carrinhoService: CarrinhoService
-
-
   ) { }
 
   ngOnInit(): void {
